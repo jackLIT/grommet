@@ -5,7 +5,7 @@ if (process.env.NODE_ENV !== 'production') {
   PropType = {
     children: PropTypes.func,
     disabled: PropTypes.bool,
-    name: PropTypes.string.isRequired,
+    name: PropTypes.string,
     onChange: PropTypes.func,
     options: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.string),
